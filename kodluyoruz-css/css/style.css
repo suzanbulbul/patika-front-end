@@ -1,0 +1,51 @@
+body {
+    text-align: center;       
+    font-family: 'Roboto', sans-serif;
+
+}
+.a-margin {
+    color: #423F3E;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.p-margin{
+
+    margin-right: 200px;
+    margin-left: 200px;
+}
+.header {
+    margin-top: 100px;
+}
+
+h1 {
+    color: #2B2B2B;
+}
+
+.img {
+    max-width:25%;
+}
+
+.card {
+    max-width: 33%;
+    max-height: 500px;
+    border: #615bff 1px solid;
+    border-radius: 2%;
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1f1f1;
+}
+
+.card-image {
+    max-width: 50%;
+    height: 30%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
