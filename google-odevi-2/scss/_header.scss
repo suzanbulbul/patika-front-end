@@ -1,0 +1,15 @@
+header {
+  padding-top: $gutter;
+
+  .row {
+    justify-content: flex-end;
+
+    align-items: center;
+    .image {
+      border-radius: 100%;
+    }
+    .box {
+      width: $gutter;
+    }
+  }
+}

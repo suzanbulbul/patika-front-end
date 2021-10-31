@@ -1,0 +1,24 @@
+section {
+  .row {
+    flex-direction: column;
+    justify-content: center;
+
+    .container{
+        padding-top: 5rem;
+        .input {
+            width: 100%;
+            border: 2px solid rgba(135, 135, 135, 0.27);
+            border-radius: 31px 31px 31px 31px;
+            height: $gutter * 2;
+            display: flex;
+            justify-content: space-between;
+            div{
+                display: flex;
+            }
+            input {
+              border: none;
+            }
+          }
+    }
+  }
+}

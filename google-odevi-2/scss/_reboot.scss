@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+  outline: none;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  color: $text-color;
+  font-size: $gutter/1.2;
+}
+
+a {
+  text-decoration: none;
+  color: $text-color;
+  font-size: $gutter/1.2;
+}
+
+img{
+  margin: 0;
+  padding: 0;;
+  max-width: 100%;
+}
